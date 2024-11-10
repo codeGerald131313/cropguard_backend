@@ -87,9 +87,6 @@ DATABASES = {
         'PASSWORD': 'YNmApkiIWeDoMcOxuZqviENRsfsyXDQG',
         'HOST': 'autorack.proxy.rlwy.net',
         'PORT': '46962',
-        'OPTIONS': {
-            'options': '-c client_encoding=UTF8'
-        }
     }
 }
 
