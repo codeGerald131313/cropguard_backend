@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'cropguard_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tesis_bd',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'PASSWORD': 'YNmApkiIWeDoMcOxuZqviENRsfsyXDQG',
+        'HOST': 'autorack.proxy.rlwy.net',
+        'PORT': '46962',
         'OPTIONS': {
             'options': '-c client_encoding=UTF8'
         }
