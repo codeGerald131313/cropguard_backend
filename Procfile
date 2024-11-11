@@ -1,1 +1,1 @@
-web: gunicorn cropguard_backend.wsgi
+web: python manage.py collectstatic && gunicorn cropguard_backend.wsgi
