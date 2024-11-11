@@ -27,8 +27,7 @@ SECRET_KEY = 'django-insecure-8+l9qm-wiuk%q%*u&h$-io!))s#ogf$s*jx-7gom=*@wvu=fck
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cropguardbackend-production.up.railway.app']
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
