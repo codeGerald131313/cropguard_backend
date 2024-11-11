@@ -15,6 +15,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
 # Quick-start development settings - unsuitable for production
@@ -153,3 +154,4 @@ CHANNEL_LAYERS = {
 MODEL_PATH = os.path.join(BASE_DIR, 'models', 'model.h5')
 MODEL_PATH_DETECTION = os.path.join(BASE_DIR, 'models', 'faster_rcnn_model')
 
+AUTH_USER_MODEL = 'leads.User'
