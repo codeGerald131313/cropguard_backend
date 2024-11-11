@@ -154,4 +154,3 @@ CHANNEL_LAYERS = {
 MODEL_PATH = os.path.join(BASE_DIR, 'models', 'model.h5')
 MODEL_PATH_DETECTION = os.path.join(BASE_DIR, 'models', 'faster_rcnn_model')
 
-AUTH_USER_MODEL = 'leads.User'
